@@ -90,7 +90,7 @@ const Footer: React.FC = () => {
             <div className="space-y-2 text-sm text-gray-300">
               <p>
                 <a 
-                  href="mailto:eyob@example.com" 
+                  href="mailto:eyobeb337@gmail.com" 
                   className="hover:text-blue-400 transition-colors duration-200"
                 >
                   eyob@example.com
@@ -98,7 +98,7 @@ const Footer: React.FC = () => {
               </p>
               <p>
                 <a 
-                  href="https://t.me/eyob_dev" 
+                  href="https://t.me/Programmer12345678" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="hover:text-blue-400 transition-colors duration-200"
