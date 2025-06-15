@@ -56,13 +56,13 @@ const Hero: React.FC = () => {
             <Github size={24} />
           </a>
           <a
-            href="mailto:eyob@example.com"
+            href="mailto:eyobeb337@gmail.com"
             className="p-3 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-teal-400 hover:bg-blue-50 dark:hover:bg-gray-700 transition-all duration-300 transform hover:scale-110"
           >
             <Mail size={24} />
           </a>
           <a
-            href="https://t.me/eyob"
+            href="https://t.me/Programmer12345678"
             target="_blank"
             rel="noopener noreferrer"
             className="p-3 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-teal-400 hover:bg-blue-50 dark:hover:bg-gray-700 transition-all duration-300 transform hover:scale-110"
