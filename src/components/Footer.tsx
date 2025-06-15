@@ -12,12 +12,12 @@ const Footer: React.FC = () => {
     },
     {
       name: 'Email',
-      url: 'mailto:eyob@example.com',
+      url: 'mailto:eyobeb337@gmail.com',
       icon: <Mail size={20} />
     },
     {
       name: 'Telegram',
-      url: 'https://t.me/eyob_dev',
+      url: 'https://t.me/Programmer12345678',
       icon: <MessageSquare size={20} />
     }
   ];
