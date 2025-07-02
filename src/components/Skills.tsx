@@ -96,7 +96,7 @@ const Skills: React.FC = () => {
             Always learning and expanding my skillset. Currently exploring:
           </p>
           <div className="flex flex-wrap justify-center gap-3">
-            {['TypeScript', 'Node.js', 'MongoDB', 'Docker', 'AWS'].map((tech) => (
+            {['React', 'Node.js', 'End-point cybersecurity'].map((tech) => (
               <span
                 key={tech}
                 className="px-4 py-2 bg-gradient-to-r from-blue-500 to-teal-500 text-white rounded-full text-sm font-medium hover:from-blue-600 hover:to-teal-600 transition-all duration-300 transform hover:scale-105"
