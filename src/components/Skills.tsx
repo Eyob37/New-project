@@ -11,14 +11,11 @@ const Skills: React.FC = () => {
   const sectionRef = useRef<HTMLDivElement>(null);
 
   const skills: Skill[] = [
-    { name: 'HTML', level: 90, color: 'from-orange-500 to-red-500' },
-    { name: 'CSS', level: 85, color: 'from-blue-500 to-indigo-500' },
-    { name: 'JavaScript', level: 80, color: 'from-yellow-400 to-orange-500' },
-    { name: 'Python', level: 75, color: 'from-green-400 to-blue-500' },
-    { name: 'Java', level: 70, color: 'from-red-500 to-pink-500' },
-    { name: 'C++', level: 65, color: 'from-purple-500 to-indigo-500' },
-    { name: 'SQL', level: 75, color: 'from-teal-400 to-blue-500' },
-    { name: 'React', level: 78, color: 'from-cyan-400 to-blue-500' }
+    { name: 'HTML', level: 95, color: 'from-orange-500 to-red-500' },
+    { name: 'JavaScript', level: 95, color: 'from-blue-500 to-indigo-500' },
+    { name: 'CSS', level: 90, color: 'from-yellow-400 to-orange-500' },
+    { name: 'Python', level: 75, color: 'from-green-400 to-blue-500' },    
+    { name: 'C++', level: 75, color: 'from-purple-500 to-indigo-500' },
   ];
 
   useEffect(() => {
