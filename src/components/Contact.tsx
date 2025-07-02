@@ -45,20 +45,15 @@ const Contact: React.FC = () => {
       icon: <MessageSquare className="w-6 h-6" />,
       label: 'Telegram',
       value: '@eyob_dev',
-      link: 'https://t.me/eyob_dev'
+      link: 'https://t.me/Programmer12345678'
     },
     {
       icon: <Github className="w-6 h-6" />,
       label: 'GitHub',
-      value: 'github.com/eyob',
+      value: 'unavailable',
       link: 'https://github.com/eyob'
-    },
-    {
-      icon: <MapPin className="w-6 h-6" />,
-      label: 'Location',
-      value: 'Available for Remote Work',
-      link: null
     }
+    
   ];
 
   return (
@@ -226,3 +221,4 @@ const Contact: React.FC = () => {
 };
 
 export default Contact;
+     
