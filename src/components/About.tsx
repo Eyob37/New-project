@@ -3,7 +3,7 @@ import { Code2, Coffee, Lightbulb, Target } from 'lucide-react';
 
 const About: React.FC = () => {
   const technologies = [
-    'HTML', 'CSS', 'JavaScript', 'C++', 'Python', 'Java', 'SQL'
+    'HTML', 'CSS', 'JavaScript', 'C++', 'Python'
   ];
 
   const highlights = [
