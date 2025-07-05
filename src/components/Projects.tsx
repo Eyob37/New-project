@@ -81,9 +81,8 @@ const Projects: React.FC = () => {
       title: 'Real-time Chat App',
       description: 'Modern chat application with real-time messaging and file sharing.',
       longDescription: 'A real-time chat application featuring instant messaging, file sharing, group chats, and user presence indicators built with modern web technologies.',
-      technologies: ['React', 'Socket.io', 'Node.js', 'MongoDB'],
-      liveUrl: 'https://chat-app-demo.example.com',
-      githubUrl: 'https://github.com/eyob/realtime-chat',
+      technologies: ['React', 'HTML', 'CSS', 'JavaScript'],
+      liveUrl: 'https://eyobchat.vercel.app/',
       image: 'https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg?auto=compress&cs=tinysrgb&w=800',
       icon: <Globe className="w-6 h-6" />,
       featured: true
