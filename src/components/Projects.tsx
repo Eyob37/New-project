@@ -153,15 +153,7 @@ const Projects: React.FC = () => {
                     <ExternalLink size={16} />
                     Live Demo
                   </a>
-                  <a
-                    href={project.githubUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center gap-2 px-4 py-2 border border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 transition-all duration-300"
-                  >
-                    <Github size={16} />
-                    Code
-                  </a>
+                
                 </div>
               </div>
             </div>
