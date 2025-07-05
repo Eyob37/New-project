@@ -83,7 +83,7 @@ const Projects: React.FC = () => {
       longDescription: 'A real-time chat application featuring instant messaging, file sharing, group chats, and user presence indicators built with modern web technologies.',
       technologies: ['React', 'HTML', 'CSS', 'JavaScript'],
       liveUrl: 'https://eyobchat.vercel.app/',
-      image: './components/Image/Chat app.jpg',
+      image: './src/Image/Chat app.jpg',
       icon: <Globe className="w-6 h-6" />,
       featured: true
     }
