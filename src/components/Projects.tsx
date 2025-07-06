@@ -1,6 +1,7 @@
 import React from 'react';
 import { ExternalLink, Github, Code, Zap, Globe, Database } from 'lucide-react';
 import chatImage from '../Image/ChatAp.jpg';
+import FirstLight from '../Image/ChatAp.jpg';
 
 interface Project {
   id: number;
@@ -19,13 +20,13 @@ const Projects: React.FC = () => {
   const projects: Project[] = [
     {
       id: 1,
-      title: 'E-Commerce Platform',
+      title: 'FirstLight',
       description: 'Full-stack e-commerce solution with modern UI and secure payment integration.',
       longDescription: 'A comprehensive e-commerce platform built with React and Node.js, featuring user authentication, product management, shopping cart, and Stripe payment integration.',
       technologies: ['React', 'Node.js', 'MongoDB', 'Stripe', 'Tailwind CSS'],
       liveUrl: 'https://ecommerce-demo.example.com',
       githubUrl: 'https://github.com/eyob/ecommerce-platform',
-      image: 'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: FirstLight,
       icon: <Globe className="w-6 h-6" />,
       featured: true
     },
