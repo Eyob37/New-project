@@ -24,7 +24,7 @@ const Projects: React.FC = () => {
       description: 'Full-stack e-commerce solution with modern UI and secure payment integration.',
       longDescription: 'A comprehensive e-commerce platform built with React and Node.js, featuring user authentication, product management, shopping cart, and Stripe payment integration.',
       technologies: ['React', 'Node.js', 'MongoDB', 'Stripe', 'Tailwind CSS'],
-      liveUrl: 'https://ecommerce-demo.example.com',
+      liveUrl: 'https://best-organized.vercel.app/',
       githubUrl: 'https://github.com/eyob/ecommerce-platform',
       image: FirstLight,
       icon: <Globe className="w-6 h-6" />,
