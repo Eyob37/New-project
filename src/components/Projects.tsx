@@ -78,7 +78,7 @@ const Projects: React.FC = () => {
     },
     {
       id: 6,
-      title: 'Real-time Chat App',
+      title: ' Chat App',
       description: 'Modern chat application with real-time messaging and file sharing.',
       longDescription: 'A real-time chat application featuring instant messaging, file sharing, group chats, and user presence indicators built with modern web technologies.',
       technologies: ['React', 'HTML', 'CSS', 'JavaScript'],
