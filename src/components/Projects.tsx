@@ -1,6 +1,6 @@
 import React from 'react';
 import { ExternalLink, Github, Code, Zap, Globe, Database } from 'lucide-react';
-import chatImage from '../Image/Chat app.jpg';
+import chatImage from '../Image/ChatAp.jpg';
 
 interface Project {
   id: number;
