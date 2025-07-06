@@ -1,5 +1,6 @@
 import React from 'react';
 import { ExternalLink, Github, Code, Zap, Globe, Database } from 'lucide-react';
+import chatImage from '../Image/Chat app.jpg';
 
 interface Project {
   id: number;
@@ -83,7 +84,7 @@ const Projects: React.FC = () => {
       longDescription: 'A real-time chat application featuring instant messaging, file sharing, group chats, and user presence indicators built with modern web technologies.',
       technologies: ['React', 'HTML', 'CSS', 'JavaScript'],
       liveUrl: 'https://eyobchat.vercel.app/',
-      image: './Image/Chat app.jpg',
+      image: chatImage,
       icon: <Globe className="w-6 h-6" />,
       featured: true
     }
