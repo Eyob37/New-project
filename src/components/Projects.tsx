@@ -1,7 +1,7 @@
 import React from 'react';
 import { ExternalLink, Github, Code, Zap, Globe, Database } from 'lucide-react';
 import chatImage from '../Image/ChatAp.jpg';
-import FirstLight from '../Image/ChatAp.jpg';
+import FirstLight from '../Image/Best.jpg';
 
 interface Project {
   id: number;
