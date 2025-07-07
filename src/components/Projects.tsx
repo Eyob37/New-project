@@ -22,7 +22,7 @@ const Projects: React.FC = () => {
       id: 1,
       title: 'FirstLight',
       description: 'Full-stack e-commerce solution with modern UI and secure payment integration.',
-      longDescription: 'This project brings together a suite of web-based utilities and games—  <br>from calculators for math and geometry to classic brain teasers and real-time chat powered by Firebase. Everything is designed to belightweight, responsive, and user-friendly. Dive in and enjoy!',
+      longDescription: 'This project brings together a suite of web-based utilities and games— \n from calculators for math and geometry to classic brain teasers and real-time chat powered by Firebase. Everything is designed to belightweight, responsive, and user-friendly. Dive in and enjoy!',
       technologies: ['HTML', 'CSS ', 'JavaScript'],
       liveUrl: 'https://best-organized.vercel.app/',
       githubUrl: 'https://github.com/eyob/ecommerce-platform',
