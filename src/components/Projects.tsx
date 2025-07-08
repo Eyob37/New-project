@@ -3,6 +3,7 @@ import { ExternalLink, Github, Code, Zap, Globe, Database } from 'lucide-react';
 import chatImage from '../Image/ChatAp.jpg';
 import FirstLight from '../Image/Best.jpg';
 import TradeJornal from '../Image/Trade Jornal.jpg';
+import EyobLanguage from '../Image/Eyob language.jpg';
 
 interface Project {
   id: number;
@@ -45,13 +46,13 @@ const Projects: React.FC = () => {
     },
     {
       id: 3,
-      title: 'Weather Dashboard',
-      description: 'Beautiful weather application with detailed forecasts and location tracking.',
-      longDescription: 'An elegant weather dashboard that provides detailed weather information, 7-day forecasts, and interactive maps with location-based weather data.',
-      technologies: ['JavaScript', 'CSS3', 'Weather API', 'Chart.js'],
+      title: 'Eyob Language',
+      description: 'Best Language web that any one know it',
+      longDescription: 'This is EyobLanguage created by me. and it is simple to use. you can change letter, word, sentence what ever you want except emoji and Punctuation mark. It is fully created by me. so, there is no body that can translate my language. so it is secret',
+      technologies: ['JavaScript', 'CSS', 'HTML'],
       liveUrl: 'https://weather-app-demo.example.com',
       githubUrl: 'https://github.com/eyob/weather-dashboard',
-      image: 'https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: EyobLanguage,
       icon: <Code className="w-6 h-6" />,
       featured: false
     },
