@@ -27,7 +27,6 @@ const Projects: React.FC = () => {
       longDescription: 'This project brings together a suite of web-based utilities and games— \n from calculators for math and geometry to classic brain teasers and real-time chat powered by Firebase. Everything is designed to belightweight, responsive, and user-friendly. Dive in and enjoy!',
       technologies: ['HTML', 'CSS ', 'JavaScript'],
       liveUrl: 'https://best-organized.vercel.app/',
-      githubUrl: 'https://github.com/eyob/ecommerce-platform',
       image: FirstLight,
       icon: <Globe className="w-6 h-6" />,
       featured: true
@@ -39,7 +38,6 @@ const Projects: React.FC = () => {
       longDescription: 'This is simple jornal for traders, and hou can write your emotion, reason why it happened, picture of the trade, risk reward ratio and etc... and you can save your data to restore by uploading your file. check it 😉',
       technologies: ['HTML', 'CSS ', 'JavaScript'],
       liveUrl: 'https://alazar-sproject.vercel.app/',
-      githubUrl: 'https://alazar-sproject.vercel.app/',
       image: TradeJornal,
       icon: <Zap className="w-6 h-6" />,
       featured: true
@@ -50,8 +48,7 @@ const Projects: React.FC = () => {
       description: 'Best Language web that any one know it',
       longDescription: 'This is EyobLanguage created by me. and it is simple to use. you can change letter, word, sentence what ever you want except emoji and Punctuation mark. It is fully created by me. so, there is no body that can translate my language. so it is secret.',
       technologies: ['HTML', 'CSS', 'JavaScript'],
-      liveUrl: 'https://eyob-s-language.vercel.app/',
-      githubUrl: 'https://github.com/eyob/code-snippets',
+      liveUrl: 'https://eyob-s-language.vercel.app/',      
       image: EyobLanguage,
       icon: <Code className="w-6 h-6" />,
       featured: true
