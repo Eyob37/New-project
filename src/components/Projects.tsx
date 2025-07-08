@@ -2,6 +2,7 @@ import React from 'react';
 import { ExternalLink, Github, Code, Zap, Globe, Database } from 'lucide-react';
 import chatImage from '../Image/ChatAp.jpg';
 import FirstLight from '../Image/Best.jpg';
+import TradeJornal from '../Image/Trade Jornal.jpg';
 
 interface Project {
   id: number;
@@ -32,13 +33,13 @@ const Projects: React.FC = () => {
     },
     {
       id: 2,
-      title: 'Task Management App',
+      title: 'Trade jornal',
       description: 'Intuitive task management application with drag-and-drop functionality.',
       longDescription: 'A productivity-focused task management application featuring drag-and-drop task organization, project categorization, and team collaboration tools.',
       technologies: ['React', 'TypeScript', 'Firebase', 'Material-UI'],
       liveUrl: 'https://taskmanager-demo.example.com',
-      githubUrl: 'https://github.com/eyob/task-manager',
-      image: 'https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=800',
+      githubUrl: 'https://alazar-sproject.vercel.app/',
+      image: TradeJornal,
       icon: <Zap className="w-6 h-6" />,
       featured: true
     },
