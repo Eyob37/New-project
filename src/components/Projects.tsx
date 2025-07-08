@@ -70,8 +70,8 @@ const Projects: React.FC = () => {
     },
     {
       id: 5,
-      title: 'Code Snippet Manager',
-      description: 'Organize and share code snippets with syntax highlighting and tags.',
+      title: 'Eyob Language',
+      description: 'Best Language web that any one know it',
       longDescription: 'A developer tool for organizing, sharing, and discovering code snippets with syntax highlighting, tagging system, and community features.',
       technologies: ['Python', 'Django', 'PostgreSQL', 'Redis'],
       liveUrl: 'https://snippets-demo.example.com',
