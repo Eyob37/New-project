@@ -48,30 +48,6 @@ const Projects: React.FC = () => {
       id: 3,
       title: 'Eyob Language',
       description: 'Best Language web that any one know it',
-      longDescription: 'This is EyobLanguage created by me. and it is simple to use. you can change letter, word, sentence what ever you want except emoji and Punctuation mark. It is fully created by me. so, there is no body that can translate my language. so it is secret',
-      technologies: ['JavaScript', 'CSS', 'HTML'],
-      liveUrl: 'https://weather-app-demo.example.com',
-      githubUrl: 'https://github.com/eyob/weather-dashboard',
-      image: EyobLanguage,
-      icon: <Code className="w-6 h-6" />,
-      featured: false
-    },
-    {
-      id: 4,
-      title: 'Portfolio CMS',
-      description: 'Content management system for creative professionals to showcase their work.',
-      longDescription: 'A custom CMS built for creative professionals to easily manage and showcase their portfolio, with drag-and-drop editing and responsive themes.',
-      technologies: ['PHP', 'MySQL', 'JavaScript', 'Bootstrap'],
-      liveUrl: 'https://portfolio-cms-demo.example.com',
-      githubUrl: 'https://github.com/eyob/portfolio-cms',
-      image: 'https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=800',
-      icon: <Database className="w-6 h-6" />,
-      featured: false
-    },
-    {
-      id: 5,
-      title: 'Eyob Language',
-      description: 'Best Language web that any one know it',
       longDescription: 'This is EyobLanguage created by me. and it is simple to use. you can change letter, word, sentence what ever you want except emoji and Punctuation mark. It is fully created by me. so, there is no body that can translate my language. so it is secret.',
       technologies: ['HTML', 'CSS', 'JavaScript'],
       liveUrl: 'https://eyob-s-language.vercel.app/',
@@ -81,7 +57,7 @@ const Projects: React.FC = () => {
       featured: true
     },
     {
-      id: 6,
+      id: 4,
       title: 'Real-time Chat App',
       description: 'Modern chat application with real-time messaging and file sharing.',
       longDescription: 'A real-time chat application featuring instant messaging, file sharing, group chats, and user presence indicators built with modern web technologies.',
@@ -91,6 +67,7 @@ const Projects: React.FC = () => {
       icon: <Globe className="w-6 h-6" />,
       featured: true
     }
+    
   ];
 
   const featuredProjects = projects.filter(project => project.featured);
@@ -101,7 +78,7 @@ const Projects: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">
-            Featured Projects
+            My projects
           </h2>
           <div className="w-20 h-1 bg-gradient-to-r from-blue-600 to-teal-600 mx-auto mb-8"></div>
           <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
