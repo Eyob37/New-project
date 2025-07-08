@@ -165,39 +165,7 @@ const Projects: React.FC = () => {
         </div>
 
         {/* Other Projects */}
-        <div className="mb-12">
-          <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mb-8 text-center">
-            More Projects
-          </h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {otherProjects.map((project) => (
-              <div
-                key={project.id}
-                className="p-6 bg-gray-50 dark:bg-gray-800 rounded-xl hover:shadow-lg transition-all duration-300 group"
-              >
-                <div className="flex items-start justify-between mb-4">
-                  <div className="p-2 bg-blue-100 dark:bg-blue-900/30 text-blue-600 dark:text-teal-400 rounded-lg">
-                    {project.icon}
-                  </div>
-                  <div className="flex gap-2">
-                    <a
-                      href={project.githubUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="p-2 text-gray-500 dark:text-gray-400 hover:text-blue-600 dark:hover:text-teal-400 transition-colors duration-200"
-                    >
-                      <Github size={18} />
-                    </a>
-                    <a
-                      href={project.liveUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="p-2 text-gray-500 dark:text-gray-400 hover:text-blue-600 dark:hover:text-teal-400 transition-colors duration-200"
-                    >
-                      <ExternalLink size={18} />
-                    </a>
-                  </div>
-                </div>
+        
                 
                 <h4 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">
                   {project.title}
