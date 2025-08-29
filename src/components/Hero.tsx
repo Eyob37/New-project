@@ -46,15 +46,7 @@ const Hero: React.FC = () => {
           </button>
         </div>
 
-        <div className="flex justify-center space-x-6">
-          <a
-            href="https://github.com/eyob"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="p-3 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-teal-400 hover:bg-blue-50 dark:hover:bg-gray-700 transition-all duration-300 transform hover:scale-110"
-          >
-            <Github size={24} />
-          </a>
+        <div className="flex justify-center space-x-6">         
           <a
             href="mailto:eyobeb337@gmail.com"
             className="p-3 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-teal-400 hover:bg-blue-50 dark:hover:bg-gray-700 transition-all duration-300 transform hover:scale-110"
