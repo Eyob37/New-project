@@ -63,6 +63,17 @@ const Projects: React.FC = () => {
       image: chatImage,
       icon: <Globe className="w-6 h-6" />,
       featured: true
+    },
+    {
+      id: 5,
+      title: 'Kalkidan Hair salon',
+      description: 'Modern chat application with real-time messaging and file sharing.',
+      longDescription: 'A real-time chat application featuring instant messaging, file sharing, group chats, and user presence indicators built with modern web technologies.',
+      technologies: ['HTML', 'CSS', 'JavaScript'],
+      liveUrl: 'https://hair-salon-rosy.vercel.app/',
+      image: chatImage,
+      icon: <Globe className="w-6 h-6" />,
+      featured: true
     }
     
   ];
