@@ -4,6 +4,7 @@ import chatImage from '../Image/ChatAp.jpg';
 import FirstLight from '../Image/Best.jpg';
 import TradeJornal from '../Image/Trade Jornal.jpg';
 import EyobLanguage from '../Image/Eyob language.jpg';
+import HairSalon from '../Image/Hair salon.jpg';
 
 interface Project {
   id: number;
@@ -67,11 +68,11 @@ const Projects: React.FC = () => {
     {
       id: 5,
       title: 'Kalkidan Hair salon',
-      description: 'Modern chat application with real-time messaging and file sharing.',
-      longDescription: 'A real-time chat application featuring instant messaging, file sharing, group chats, and user presence indicators built with modern web technologies.',
+      description: 'order maker for Hair salon.',
+      longDescription: 'you can make order for Hair salon. It allow you to make order at your home without losing time and energy.',
       technologies: ['HTML', 'CSS', 'JavaScript'],
       liveUrl: 'https://hair-salon-rosy.vercel.app/',
-      image: chatImage,
+      image: HairSalon,
       icon: <Globe className="w-6 h-6" />,
       featured: true
     }
